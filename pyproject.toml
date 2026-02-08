@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bank-statement-pdf-to-csv-html-onenote"
+version = "0.1.0"
+description = "Local-first bank statement pipeline: CSV, charts, and OneNote sync"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0"
+]
+
+[project.optional-dependencies]
+charts = ["matplotlib>=3.8.0"]
+excel = ["openpyxl>=3.1.0"]
+
+[project.scripts]
+bs2o = "bs2o.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bs2o*"]
