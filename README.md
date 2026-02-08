@@ -17,6 +17,7 @@ Local-first Python CLI (`bs2o`) to process bank statement outputs from MinerU in
 - Re-runnable monthly reporting workflow.
 - Local parsing/export by default; cloud only when OneNote live sync is enabled.
 - Beginner-friendly `init` and config-based runs.
+- Everything is processed locally. less personal data leak concerns. PDF is converted from local LLM OCR can support different BANK PDF format
 
 ## Pre-requirements
 - Python 3.10+
