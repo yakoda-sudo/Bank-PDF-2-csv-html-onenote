@@ -1,4 +1,9 @@
 # Bank-statement-PDF-to-csv-html-onenote
+From the bank APP exported PDF:
+<img width="1102" height="704" alt="image" src="https://github.com/user-attachments/assets/8c69f6b7-2eaf-4bf5-92c9-cb8f2d9f4b3f" />
+To the actual usful table and analsysis for your own notes
+<img width="996" height="1144" alt="image" src="https://github.com/user-attachments/assets/776c2bde-dc43-483b-a703-e5051b92c73a" />
+
 
 Local-first Python CLI (`bs2o`) to process bank statement outputs from MinerU into:
 - monthly CSV files
