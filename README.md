@@ -20,8 +20,8 @@ Local-first Python CLI (`bs2o`) to process bank statement outputs from MinerU in
 - Everything is processed locally. less personal data leak concerns. PDF is converted from local LLM OCR can support different BANK PDF format
 
 ## Pre-requirements
-- Python 3.10+
-- MinerU installed (used to generate markdown from PDF)
+- Python 3.10+ - 3.13+
+- MinerU installed (used to generate markdown from PDF) https://github.com/opendatalab/MinerU
 - For live OneNote sync:
   - Azure App Registration with delegated Graph permissions:
     - `Notes.ReadWrite`
